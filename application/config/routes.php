@@ -54,10 +54,10 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = true;
 
 $route['Libro']['get'] = 'api/Libro';
-$route['Libro/(:num)']['get'] = 'api/Libro/findById/$1';
+$route['Libro/(:num)([0-9]+)']['get'] = 'api/Libro/findById/$1';
 $route['Libro']['post'] = 'api/Libro';
 $route['Libro']['put'] = 'api/Libro';
-$route['Libro/(:num)']['delete'] = 'api/Libro/$1';
+$route['Libro/(:num)([0-9]+)']['delete'] = 'api/Libro/$1';
 /*
 | -------------------------------------------------------------------------
 | Sample REST API Routes
