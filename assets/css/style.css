@@ -1,0 +1,17 @@
+body{
+    background-color: #8ba8af;
+}
+
+.contenedor{
+    width: 600px;
+    background: white;
+    margin: 2% auto;
+    padding: 5px;
+}
+
+.contenedor-table{
+    width: 90%;
+    background: white;
+    margin: 2% auto;
+    padding: 5px;
+}
